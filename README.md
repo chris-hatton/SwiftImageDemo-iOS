@@ -1,8 +1,8 @@
 # SwiftImageDemo
-Demo App for the SwiftImage library
+Demo App for the (SwiftImage)[https://github.com/chris-hatton/SwiftImage] library
 
 **SwiftImage** is a work-in-progress library for manipulating and converting between the numerous image representations that exist
-in Cocoa Touch and it's associated frameworks.  These are:
+in (Cocoa Touch)[https://en.wikipedia.org/wiki/Cocoa_Touch] and it's associated frameworks.  These are:
 
 - **UIImage** 		(UIKit)
 - **CGImage** 		(CoreGraphics)

@@ -7,48 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83A2A5241B6CB10A00FCA483 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A2A5231B6CB10A00FCA483 /* AppDelegate.swift */; };
+		831099F21DD4846E00D2B19B /* SwiftImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831099ED1DD4844800D2B19B /* SwiftImage.framework */; };
+		83A2A5241B6CB10A00FCA483 /* SwiftImageDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A2A5231B6CB10A00FCA483 /* SwiftImageDemo.swift */; };
 		83A2A5261B6CB10A00FCA483 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A2A5251B6CB10A00FCA483 /* ViewController.swift */; };
 		83A2A5291B6CB10A00FCA483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A2A5271B6CB10A00FCA483 /* Main.storyboard */; };
 		83A2A52B1B6CB10A00FCA483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A2A52A1B6CB10A00FCA483 /* Assets.xcassets */; };
 		83A2A52E1B6CB10A00FCA483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A2A52C1B6CB10A00FCA483 /* LaunchScreen.storyboard */; };
-		83A2A5441B6CB4EE00FCA483 /* SwiftImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A2A53C1B6CB13D00FCA483 /* SwiftImage.framework */; };
+		83CB8A251DAA28C40035084B /* SwiftImageApple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B76CC61DAA1CCE006661CC /* SwiftImageApple.framework */; };
 		83F693BF1B6E348800935885 /* swiftLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F693BE1B6E348800935885 /* swiftLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		83A2A53B1B6CB13D00FCA483 /* PBXContainerItemProxy */ = {
+		831099EC1DD4844800D2B19B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 83A2A5361B6CB13D00FCA483 /* SwiftImage.xcodeproj */;
+			containerPortal = 831099E61DD4844800D2B19B /* SwiftImage.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 83C490291B5E6BAB00C54BE7;
 			remoteInfo = SwiftImage;
 		};
-		83A2A53D1B6CB13D00FCA483 /* PBXContainerItemProxy */ = {
+		831099EE1DD4844800D2B19B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 83A2A5361B6CB13D00FCA483 /* SwiftImage.xcodeproj */;
+			containerPortal = 831099E61DD4844800D2B19B /* SwiftImage.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 83C490341B5E6BAC00C54BE7;
 			remoteInfo = SwiftImageTests;
 		};
-		83A2A5421B6CB4EA00FCA483 /* PBXContainerItemProxy */ = {
+		831099F01DD4845800D2B19B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 83A2A5361B6CB13D00FCA483 /* SwiftImage.xcodeproj */;
+			containerPortal = 831099E61DD4844800D2B19B /* SwiftImage.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 83C490281B5E6BAB00C54BE7;
 			remoteInfo = SwiftImage;
 		};
+		83B76CC51DAA1CCE006661CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83B76CC01DAA1CCE006661CC /* SwiftImage-Apple.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83B76CA41DAA199C006661CC;
+			remoteInfo = "SwiftImage-Apple";
+		};
+		83B76CC71DAA1CCE006661CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83B76CC01DAA1CCE006661CC /* SwiftImage-Apple.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83B76CAD1DAA199C006661CC;
+			remoteInfo = "SwiftImage-AppleTests";
+		};
+		83CB8A211DAA28BE0035084B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83B76CC01DAA1CCE006661CC /* SwiftImage-Apple.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B76CA31DAA199C006661CC;
+			remoteInfo = "SwiftImage-Apple";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		831099E61DD4844800D2B19B /* SwiftImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftImage.xcodeproj; path = ../SwiftImage/SwiftImage.xcodeproj; sourceTree = "<group>"; };
 		83A2A5201B6CB10A00FCA483 /* SwiftImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		83A2A5231B6CB10A00FCA483 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83A2A5231B6CB10A00FCA483 /* SwiftImageDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftImageDemo.swift; sourceTree = "<group>"; };
 		83A2A5251B6CB10A00FCA483 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83A2A5281B6CB10A00FCA483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83A2A52A1B6CB10A00FCA483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83A2A52D1B6CB10A00FCA483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83A2A52F1B6CB10A00FCA483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83A2A5361B6CB13D00FCA483 /* SwiftImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftImage.xcodeproj; path = ../SwiftImage/SwiftImage.xcodeproj; sourceTree = "<group>"; };
+		83B76CC01DAA1CCE006661CC /* SwiftImage-Apple.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "SwiftImage-Apple.xcodeproj"; path = "../SwiftImage-Apple/SwiftImage-Apple.xcodeproj"; sourceTree = "<group>"; };
 		83F693BE1B6E348800935885 /* swiftLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swiftLogo.png; path = Resources/swiftLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,13 +80,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A2A5441B6CB4EE00FCA483 /* SwiftImage.framework in Frameworks */,
+				831099F21DD4846E00D2B19B /* SwiftImage.framework in Frameworks */,
+				83CB8A251DAA28C40035084B /* SwiftImageApple.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		831099E71DD4844800D2B19B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				831099ED1DD4844800D2B19B /* SwiftImage.framework */,
+				831099EF1DD4844800D2B19B /* SwiftImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		83A2A5171B6CB10A00FCA483 = {
 			isa = PBXGroup;
 			children = (
@@ -85,7 +118,7 @@
 		83A2A5221B6CB10A00FCA483 /* SwiftImageDemo */ = {
 			isa = PBXGroup;
 			children = (
-				83A2A5231B6CB10A00FCA483 /* AppDelegate.swift */,
+				83A2A5231B6CB10A00FCA483 /* SwiftImageDemo.swift */,
 				83A2A5251B6CB10A00FCA483 /* ViewController.swift */,
 				83A2A5271B6CB10A00FCA483 /* Main.storyboard */,
 				83A2A52A1B6CB10A00FCA483 /* Assets.xcassets */,
@@ -98,18 +131,10 @@
 		83A2A5351B6CB13200FCA483 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				83A2A5361B6CB13D00FCA483 /* SwiftImage.xcodeproj */,
+				831099E61DD4844800D2B19B /* SwiftImage.xcodeproj */,
+				83B76CC01DAA1CCE006661CC /* SwiftImage-Apple.xcodeproj */,
 			);
 			name = Dependencies;
-			sourceTree = "<group>";
-		};
-		83A2A5371B6CB13D00FCA483 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				83A2A53C1B6CB13D00FCA483 /* SwiftImage.framework */,
-				83A2A53E1B6CB13D00FCA483 /* SwiftImageTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		83A2A53F1B6CB14500FCA483 /* Resources */ = {
@@ -118,6 +143,15 @@
 				83F693BE1B6E348800935885 /* swiftLogo.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		83B76CC11DAA1CCE006661CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83B76CC61DAA1CCE006661CC /* SwiftImageApple.framework */,
+				83B76CC81DAA1CCE006661CC /* SwiftImageAppleTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +168,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				83A2A5431B6CB4EA00FCA483 /* PBXTargetDependency */,
+				831099F11DD4845800D2B19B /* PBXTargetDependency */,
+				83CB8A221DAA28BE0035084B /* PBXTargetDependency */,
 			);
 			name = SwiftImageDemo;
 			productName = SwiftImageDemo;
@@ -147,11 +182,12 @@
 		83A2A5181B6CB10A00FCA483 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Chris Hatton";
 				TargetAttributes = {
 					83A2A51F1B6CB10A00FCA483 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 4P899MY75T;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -169,8 +205,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 83A2A5371B6CB13D00FCA483 /* Products */;
-					ProjectRef = 83A2A5361B6CB13D00FCA483 /* SwiftImage.xcodeproj */;
+					ProductGroup = 83B76CC11DAA1CCE006661CC /* Products */;
+					ProjectRef = 83B76CC01DAA1CCE006661CC /* SwiftImage-Apple.xcodeproj */;
+				},
+				{
+					ProductGroup = 831099E71DD4844800D2B19B /* Products */;
+					ProjectRef = 831099E61DD4844800D2B19B /* SwiftImage.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -181,18 +221,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		83A2A53C1B6CB13D00FCA483 /* SwiftImage.framework */ = {
+		831099ED1DD4844800D2B19B /* SwiftImage.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SwiftImage.framework;
-			remoteRef = 83A2A53B1B6CB13D00FCA483 /* PBXContainerItemProxy */;
+			remoteRef = 831099EC1DD4844800D2B19B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		83A2A53E1B6CB13D00FCA483 /* SwiftImageTests.xctest */ = {
+		831099EF1DD4844800D2B19B /* SwiftImageTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = SwiftImageTests.xctest;
-			remoteRef = 83A2A53D1B6CB13D00FCA483 /* PBXContainerItemProxy */;
+			remoteRef = 831099EE1DD4844800D2B19B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		83B76CC61DAA1CCE006661CC /* SwiftImageApple.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftImageApple.framework;
+			remoteRef = 83B76CC51DAA1CCE006661CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		83B76CC81DAA1CCE006661CC /* SwiftImageAppleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftImageAppleTests.xctest;
+			remoteRef = 83B76CC71DAA1CCE006661CC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -217,17 +271,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				83A2A5261B6CB10A00FCA483 /* ViewController.swift in Sources */,
-				83A2A5241B6CB10A00FCA483 /* AppDelegate.swift in Sources */,
+				83A2A5241B6CB10A00FCA483 /* SwiftImageDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		83A2A5431B6CB4EA00FCA483 /* PBXTargetDependency */ = {
+		831099F11DD4845800D2B19B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftImage;
-			targetProxy = 83A2A5421B6CB4EA00FCA483 /* PBXContainerItemProxy */;
+			targetProxy = 831099F01DD4845800D2B19B /* PBXContainerItemProxy */;
+		};
+		83CB8A221DAA28BE0035084B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftImage-Apple";
+			targetProxy = 83CB8A211DAA28BE0035084B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -264,8 +323,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -287,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -309,8 +370,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -326,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,6 +401,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4P899MY75T;
 				INFOPLIST_FILE = SwiftImageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.chrisHatton.SwiftImageDemo;
@@ -350,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4P899MY75T;
 				INFOPLIST_FILE = SwiftImageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.chrisHatton.SwiftImageDemo;

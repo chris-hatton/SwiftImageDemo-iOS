@@ -27,7 +27,7 @@ class ViewController: UIViewController
         {
             let genericImage : GenericImage<RGBColor> = try inputUIImage.convert()
             
-            //genericImage.
+            genericImage.set( x: 4, y: 4, color: try UIColor.red.convert() )
             
             outputUIImage = try genericImage.convert()
             

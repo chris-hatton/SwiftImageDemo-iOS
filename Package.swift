@@ -9,12 +9,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftImageDemo-iOS”
+    name: "SwiftImageDemo-iOS"
     targets: [],
     dependencies: [
-	.Package(url: “https://github.com/chris-hatton/SwiftImage.git“,      majorVersion: 1),
-	.Package(url: “https://github.com/chris-hatton/SwiftImage-iOS.git“,  majorVersion: 1),
-	.Package(url: “https://github.com/chris-hatton/SwiftVision.git“,     majorVersion: 1),
-	.Package(url: “https://github.com/chris-hatton/SwiftVision-iOS.git“, majorVersion: 1)
+	.Package(url: "https://github.com/chris-hatton/SwiftImage.git",      majorVersion: 1),
+	.Package(url: "https://github.com/chris-hatton/SwiftImage-iOS.git",  majorVersion: 1),
+	.Package(url: "https://github.com/chris-hatton/SwiftVision.git",     majorVersion: 1),
+	.Package(url: "https://github.com/chris-hatton/SwiftVision-iOS.git", majorVersion: 1)
     ]
 )

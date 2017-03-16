@@ -13,10 +13,6 @@
 		8302CEC51E7A854000AA9E94 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8302CEBF1E7A854000AA9E94 /* Info.plist */; };
 		8302CEC61E7A854000AA9E94 /* SwiftImageDemo-iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8302CEC01E7A854000AA9E94 /* SwiftImageDemo-iOS.swift */; };
 		8302CEC71E7A854000AA9E94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8302CEC11E7A854000AA9E94 /* ViewController.swift */; };
-		8390018C1E7A9F820031AF8F /* SwiftVision-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8390014A1E7A9E4F0031AF8F /* SwiftVision-iOS.framework */; };
-		8390018D1E7A9F820031AF8F /* SwiftVision-iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8390014A1E7A9E4F0031AF8F /* SwiftVision-iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		839001901E7A9F820031AF8F /* SwiftVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8302CF891E7A9D0000AA9E94 /* SwiftVision.framework */; };
-		839001911E7A9F820031AF8F /* SwiftVision.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8302CF891E7A9D0000AA9E94 /* SwiftVision.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		839001941E7A9F820031AF8F /* SwiftImage-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8302CF5A1E7A9C6200AA9E94 /* SwiftImage-iOS.framework */; };
 		839001951E7A9F820031AF8F /* SwiftImage-iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8302CF5A1E7A9C6200AA9E94 /* SwiftImage-iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		839001981E7A9F820031AF8F /* SwiftImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8302CEFC1E7A9A7400AA9E94 /* SwiftImage.framework */; };
@@ -53,48 +49,6 @@
 			remoteGlobalIDString = 8302CF3A1E7A9B5600AA9E94;
 			remoteInfo = "SwiftImage-iOSTests";
 		};
-		8302CF881E7A9D0000AA9E94 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8302CF831E7A9D0000AA9E94 /* SwiftVision.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8302CF691E7A9CE100AA9E94;
-			remoteInfo = SwiftVision;
-		};
-		8302CF8A1E7A9D0000AA9E94 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8302CF831E7A9D0000AA9E94 /* SwiftVision.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8302CF721E7A9CE100AA9E94;
-			remoteInfo = SwiftVisionTests;
-		};
-		839001491E7A9E4F0031AF8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 839001401E7A9E4F0031AF8F /* SwiftVision-iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8302CF991E7A9E0200AA9E94;
-			remoteInfo = "SwiftVision-iOS";
-		};
-		8390014B1E7A9E4F0031AF8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 839001401E7A9E4F0031AF8F /* SwiftVision-iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8302CFA21E7A9E0200AA9E94;
-			remoteInfo = "SwiftVision-iOSTests";
-		};
-		8390018E1E7A9F820031AF8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 839001401E7A9E4F0031AF8F /* SwiftVision-iOS.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8302CF981E7A9E0200AA9E94;
-			remoteInfo = "SwiftVision-iOS";
-		};
-		839001921E7A9F820031AF8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8302CF831E7A9D0000AA9E94 /* SwiftVision.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8302CF681E7A9CE100AA9E94;
-			remoteInfo = SwiftVision;
-		};
 		839001961E7A9F820031AF8F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8302CF541E7A9C6200AA9E94 /* SwiftImage-iOS.xcodeproj */;
@@ -119,8 +73,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				839001991E7A9F820031AF8F /* SwiftImage.framework in Embed Frameworks */,
-				839001911E7A9F820031AF8F /* SwiftVision.framework in Embed Frameworks */,
-				8390018D1E7A9F820031AF8F /* SwiftVision-iOS.framework in Embed Frameworks */,
 				839001951E7A9F820031AF8F /* SwiftImage-iOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -137,8 +89,6 @@
 		8302CEC11E7A854000AA9E94 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8302CEF61E7A9A7400AA9E94 /* SwiftImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftImage.xcodeproj; path = Packages/SwiftImage/SwiftImage.xcodeproj; sourceTree = "<group>"; };
 		8302CF541E7A9C6200AA9E94 /* SwiftImage-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "SwiftImage-iOS.xcodeproj"; path = "Packages/SwiftImage-iOS/SwiftImage-iOS.xcodeproj"; sourceTree = "<group>"; };
-		8302CF831E7A9D0000AA9E94 /* SwiftVision.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftVision.xcodeproj; path = Packages/SwiftVision/SwiftVision.xcodeproj; sourceTree = "<group>"; };
-		839001401E7A9E4F0031AF8F /* SwiftVision-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "SwiftVision-iOS.xcodeproj"; path = "Packages/SwiftVision-iOS/SwiftVision-iOS.xcodeproj"; sourceTree = "<group>"; };
 		83A2A5201B6CB10A00FCA483 /* SwiftImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F693BE1B6E348800935885 /* swiftLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swiftLogo.png; path = Resources/swiftLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,8 +99,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				839001981E7A9F820031AF8F /* SwiftImage.framework in Frameworks */,
-				839001901E7A9F820031AF8F /* SwiftVision.framework in Frameworks */,
-				8390018C1E7A9F820031AF8F /* SwiftVision-iOS.framework in Frameworks */,
 				839001941E7A9F820031AF8F /* SwiftImage-iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,8 +122,6 @@
 		8302CEC81E7A8CE800AA9E94 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				839001401E7A9E4F0031AF8F /* SwiftVision-iOS.xcodeproj */,
-				8302CF831E7A9D0000AA9E94 /* SwiftVision.xcodeproj */,
 				8302CF541E7A9C6200AA9E94 /* SwiftImage-iOS.xcodeproj */,
 				8302CEF61E7A9A7400AA9E94 /* SwiftImage.xcodeproj */,
 			);
@@ -196,24 +142,6 @@
 			children = (
 				8302CF5A1E7A9C6200AA9E94 /* SwiftImage-iOS.framework */,
 				8302CF5C1E7A9C6200AA9E94 /* SwiftImage-iOSTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8302CF841E7A9D0000AA9E94 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8302CF891E7A9D0000AA9E94 /* SwiftVision.framework */,
-				8302CF8B1E7A9D0000AA9E94 /* SwiftVisionTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		839001411E7A9E4F0031AF8F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8390014A1E7A9E4F0031AF8F /* SwiftVision-iOS.framework */,
-				8390014C1E7A9E4F0031AF8F /* SwiftVision-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -259,8 +187,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				8390018F1E7A9F820031AF8F /* PBXTargetDependency */,
-				839001931E7A9F820031AF8F /* PBXTargetDependency */,
 				839001971E7A9F820031AF8F /* PBXTargetDependency */,
 				8390019B1E7A9F820031AF8F /* PBXTargetDependency */,
 			);
@@ -305,14 +231,6 @@
 					ProductGroup = 8302CEF71E7A9A7400AA9E94 /* Products */;
 					ProjectRef = 8302CEF61E7A9A7400AA9E94 /* SwiftImage.xcodeproj */;
 				},
-				{
-					ProductGroup = 839001411E7A9E4F0031AF8F /* Products */;
-					ProjectRef = 839001401E7A9E4F0031AF8F /* SwiftVision-iOS.xcodeproj */;
-				},
-				{
-					ProductGroup = 8302CF841E7A9D0000AA9E94 /* Products */;
-					ProjectRef = 8302CF831E7A9D0000AA9E94 /* SwiftVision.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
@@ -350,34 +268,6 @@
 			remoteRef = 8302CF5B1E7A9C6200AA9E94 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		8302CF891E7A9D0000AA9E94 /* SwiftVision.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftVision.framework;
-			remoteRef = 8302CF881E7A9D0000AA9E94 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8302CF8B1E7A9D0000AA9E94 /* SwiftVisionTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SwiftVisionTests.xctest;
-			remoteRef = 8302CF8A1E7A9D0000AA9E94 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8390014A1E7A9E4F0031AF8F /* SwiftVision-iOS.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = "SwiftVision-iOS.framework";
-			remoteRef = 839001491E7A9E4F0031AF8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8390014C1E7A9E4F0031AF8F /* SwiftVision-iOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "SwiftVision-iOSTests.xctest";
-			remoteRef = 8390014B1E7A9E4F0031AF8F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -408,16 +298,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8390018F1E7A9F820031AF8F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SwiftVision-iOS";
-			targetProxy = 8390018E1E7A9F820031AF8F /* PBXContainerItemProxy */;
-		};
-		839001931E7A9F820031AF8F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftVision;
-			targetProxy = 839001921E7A9F820031AF8F /* PBXContainerItemProxy */;
-		};
 		839001971E7A9F820031AF8F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SwiftImage-iOS";

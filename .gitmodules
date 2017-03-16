@@ -4,9 +4,6 @@
 [submodule "Packages/SwiftImage-iOS"]
 	path = Packages/SwiftImage-iOS
 	url = https://chris-hatton@github.com/chris-hatton/SwiftImage-iOS.git
-[submodule "Packages/SwiftVision"]
-	path = Packages/SwiftVision
-	url = https://chris-hatton@github.com/chris-hatton/SwiftVision.git
 [submodule "Packages/SwiftVision-iOS"]
 	path = Packages/SwiftVision-iOS
 	url = https://chris-hatton@github.com/chris-hatton/SwiftVision-iOS.git

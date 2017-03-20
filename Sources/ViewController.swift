@@ -7,8 +7,9 @@
 //
 
 import UIKit
+
 import SwiftImage
-import SwiftImageApple
+import SwiftImage_iOS
 
 class ViewController: UIViewController
 {
@@ -25,7 +26,10 @@ class ViewController: UIViewController
         
         do // Test of the conversion process to & from 'GenericImage' format. Should result in an unchanged image.
         {
-            let genericImage : GenericImage<RGBColor> = try inputUIImage.convert()
+            let pixelBuffer : CVPixelBuffer = try inputUIImage.convert()
+            let genericImage : GenericImage<RGBColor> = try pixelBuffer.convert()
+            
+            
             
             genericImage.set( x: 4, y: 4, color: try UIColor.red.convert() )
             
@@ -37,12 +41,6 @@ class ViewController: UIViewController
         {
             return
         }
-    }
-
-    override func didReceiveMemoryWarning()
-    {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 }
 
